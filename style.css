@@ -2,11 +2,23 @@
 body {
     background-color: #0e0f23; /* Deep cosmic blue */
     color: #d8c5ff; /* Ethereal light violet */
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', serif;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
+h1, h2 {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 400;
+}
+
 
 h1, h2, h3 {
     color: #ffe17b; /* Starlight gold */
