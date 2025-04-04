@@ -1,0 +1,62 @@
+/* Santulana Chronicles - Cosmic Theme */
+body {
+    background-color: #0e0f23; /* Deep cosmic blue */
+    color: #d8c5ff; /* Ethereal light violet */
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #ffe17b; /* Starlight gold */
+    text-shadow: 0 0 8px #ffd700;
+}
+
+nav {
+    background: rgba(20, 20, 50, 0.8);
+    padding: 15px;
+    border-bottom: 2px solid #d8c5ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d8c5ff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffe17b;
+    text-shadow: 0 0 10px #ffd700;
+}
+
+footer {
+    background: rgba(20, 20, 50, 0.8);
+    padding: 10px;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #d8c5ff;
+}
+
+/* Cosmic Glow Effect */
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700; }
+    50% { text-shadow: 0 0 15px #ffea00, 0 0 30px #ffd700; }
+    100% { text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700; }
+}
+
+h1 {
+    animation: glow 2s infinite alternate;
+}
